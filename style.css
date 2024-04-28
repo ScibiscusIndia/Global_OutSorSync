@@ -1,0 +1,86 @@
+/* section 2 */
+.sec2{
+    padding: 40px;
+}
+.sec2 .p3{
+    /* background-color: red; */
+    margin-top: 10px;
+}
+
+/* section 3 */
+.sec3{
+    padding: 40px;
+    color: white;
+}
+
+/* section 4 */
+.sec4{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.para_s4{
+    margin-top: 22vh;
+}
+@media only screen and (max-width: 425px){
+	.para_s4{
+        margin-top: 8vh;
+    }
+}
+
+/* section 5 */
+.sec5 .crd5, .card-body{
+    /* background-color: red; */
+}
+
+/* section 6 */
+.sec6{
+    background-color: black;
+    color: white;
+    padding: 80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+/* section 7 */
+.sec7{
+    padding: 40px;
+}
+
+.hs7{
+    padding-top: 10px;
+}
+.hs7 p{
+    padding-top: 3px;
+}
+
+/* section 8 */
+.sec8{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.bs8{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.gt_8{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.gt_8 p{
+    font-size: 55px;
+}
+
+/* hompage */
+.main_hp_90{
+    background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/A0xNbVl68DhpV2MO/sci-blogs-YKbJxZj04Kf80jVg.png");
+}
+.hp1{
+    color: white;
+}
+.bck_img_90{
+    margin-top: -75px;
+    background-color: red;
+}
