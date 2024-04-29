@@ -55,9 +55,9 @@
 .but_cardt_s3{
     color: #00076D;
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 700px){
 	.rsec3{
-        margin-top: -30vh;
+        margin-top: -20vh;
     }
 }
 
