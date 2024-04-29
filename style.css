@@ -30,11 +30,20 @@
     }
     /* universal card styling */
     .r_card{
-        width: 22.5rem;
+        width: 22rem;
     }
 }
 
-
+@media only screen and (max-width: 450px){
+    .r_card{
+        width: 350px;
+    }
+}
+@media only screen and (max-width: 350px){
+    .r_card{
+        width: 200px;
+    }
+}
 
 
 
