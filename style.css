@@ -1,18 +1,70 @@
+
+
+
+
+
+
+
 /* section 2 */
 .sec2{
     padding-top: 50px;
     padding-bottom: 40px;
 }
+@media only screen and (max-width: 600px){
+	.sec_h2{
+        color: #00076D;
+        font-weight:400;
+    }
+}
+
+
+
 .sec2 .p2{
     /* background-color: red; */
     margin-top: 30px;
 }
+
+@media only screen and (max-width: 600px){
+	.p2{
+        visibility: hidden;
+    }
+    /* universal card styling */
+    .r_card{
+        width: 22.5rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
 
 /* section 3 */
 .sec3{
     padding: 40px;
     color: white;
 }
+.but_card_s3{
+    background-color: #7BB4C3;
+}
+.but_cardt_s3{
+    color: #00076D;
+}
+@media only screen and (max-width: 600px){
+	.rsec3{
+        margin-top: -30vh;
+    }
+}
+
+
+
+
+
 
 /* section 4 */
 .sec4{
@@ -22,17 +74,37 @@
 .para_s4{
     margin-top: 22vh;
 }
-@media only screen and (max-width: 425px){
+@media only screen and (max-width: 600px){
 	.para_s4{
-        margin-top: 8vh;
+        margin-top: -2vh;
+    }
+    .b4{
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
+
+
+
+
+
+
+
+
 
 /* section 5 */
 .sec5{
     padding-top: 40px;
     padding-bottom: 40px;
 }
+
+
+
+
+
+
 
 /* section 6 */
 .sec6{
@@ -45,9 +117,15 @@
 
 
 
+
+
+
+
+
+
 /* section 7 */
 .sec7{
-    padding: 40px;
+    padding-top: 50px;
 }
 
 .hs7{
@@ -62,6 +140,17 @@
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+
+
+
+
+
+
+
+
+
+
 
 /* section 8 */
 .sec8{
@@ -81,6 +170,15 @@
     font-size: 55px;
 }
 
+
+
+
+
+
+
+
+
+
 /* hompage */
 .main_hp_90{
     background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/A0xNbVl68DhpV2MO/sci-blogs-YKbJxZj04Kf80jVg.png");
@@ -94,6 +192,6 @@
 }
 @media only screen and (max-width: 600px){
 	.main_hp_90{
-        height: 120vh;
+        height: 75vh;
     }
 }
