@@ -1,0 +1,44 @@
+.sec1{
+    background-color: #a9ddea;
+    color: #00076D;
+}
+.sec1_one{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.c1{
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+/* list */
+.list_st{
+    list-style: none;
+}
+
+/* sec 2 */
+.pr_hd{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+
+
+
+
+/* 
+
+
+// Get input value for name
+      var nameInput = document.getElementById("name");
+      var name = nameInput.value;  
+      
+      // Get input value for mail id
+      var mailInput = document.getElementById("mail");
+      var mail = mailInput.value;
+
+      // Get input value for message
+      var msgInput = document.getElementById("msg");
+      var msg = msgInput.value;
+
+*/
