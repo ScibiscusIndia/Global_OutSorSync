@@ -1,0 +1,295 @@
+
+
+
+
+
+
+/* section 2 */
+.sec2{
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+@media only screen and (max-width: 600px){
+	.sec_h2{
+        color: #00076D;
+        font-weight:400;
+    }
+}
+
+
+
+.sec2 .p2{
+    /* background-color: red; */
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px){
+	.p2{
+        visibility: hidden;
+        display: none;
+    }
+    /* universal card styling */
+    .r_card{
+        width: 22rem;
+    }
+}
+
+@media only screen and (max-width: 450px){
+    .r_card{
+        width: 350px;
+    }
+}
+@media only screen and (max-width: 350px){
+    .r_card{
+        width: 200px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* section 3 */
+.sec3{
+    padding: 20px 40px 10px 40px;
+    color: white;
+}
+.but_card_s3{
+    background-color: #7BB4C3;
+}
+.but_cardt_s3{
+    color: #00076D;
+}
+@media only screen and (max-width: 700px){
+	.rsec3{
+        margin-top: 5px;
+    }
+
+    .sec3-btn{
+        display: block;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+/* section 4 content left*/
+.sec4{
+    padding-top: 20px;
+    padding-bottom: 35px;
+}
+.para_s4{
+    margin-top: 15vh;
+    text-align: center;
+}
+@media only screen and (max-width: 600px){
+	.para_s4{
+        margin-top: -2vh;
+    }
+    .b4{
+        /* background-color: red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* section 4 content right*/
+.sec41{
+  padding-top: 20px;
+  padding-bottom: 35px;
+}
+.para_s41{
+  margin-top: 15vh;
+  text-align: center;
+}
+@media only screen and (max-width: 600px){
+.para_s41{
+      margin-top: -2vh;
+  }
+  .b41{
+      /* background-color: red; */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* section 5 */
+.sec5{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+@media only screen and (min-width: 600px){
+    .crd5{
+        margin-top: 55px;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .p-3 > .but_card_s3{
+        margin: auto;
+    }
+}
+
+
+
+
+
+
+
+/* section 6 */
+.sec6{
+    background-color: black;
+    color: white;
+    padding: 80px;
+    margin-top: 6vw;
+    margin-bottom: 6vw;
+}
+
+
+
+
+
+
+
+
+
+/* section 7 */
+.sec7{
+    padding-top: 50px;
+}
+
+.hs7{
+    padding-top: 10px;
+}
+.hs7 p{
+    padding-top: 3px;
+}
+.ph7{
+    font-weight: 500;
+    font-size: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* section 8 */
+.sec8{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.bs8{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.gt_8{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.gt_8 p{
+    font-size: 55px;
+}
+
+.message{
+    padding: 18px 10px;
+}
+
+@media only screen and (max-width: 600px){
+    .sec8 > .gt_8 > p{
+        font-size: 48px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* hompage */
+.main_hp_90{
+  background-color: #7BB4C3;
+  height: 65vh;
+
+}
+.hp1{
+    color: black;
+    margin: auto;
+    font-style: italic;
+    font-family: garamond;
+    font-size: 22px;
+    margin-right: 15px;
+}
+@media only screen and (max-width: 600px){
+	.main_hp_90{
+        height: 75vh;
+    }
+}
+
+.card-body-intro{
+  margin-top: 3rem;
+}
+
+
+
+
+
+.navbar-brand{
+    font-style: italic;
+    font-family: garamond;
+    font-size: 22xp;
+    color: black;
+    margin-left: 2px;
+}
+
+
+
+.collapse{
+  margin-right: 15rem;
+}
+
+.left-content{
+    margin-left: 15rem;
+}
+
+.nav-logo{
+  margin-bottom: 4.5px;
+}
+
+
+
+
+
+
+
+
