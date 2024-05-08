@@ -1,5 +1,18 @@
 
 
+/* section 0 */
+.card-body-intro{
+    content: url("../Logo/nav_bar_logo.png");
+    width:auto;
+    height:300px;
+}
+@media only screen and (max-width: 600px){
+	.card-body-intro{
+        content: url("../Logo/nav_bar_logo.png");
+        width:280px;
+        height:80px;
+    }
+}
 
 
 
@@ -271,6 +284,15 @@
     color: black;
     margin-left: 2px;
 }
+@media only screen and (max-width: 600px){
+	.navbar-brand{
+        
+        margin-left: -13rem;
+    }
+
+}
+
+
 
 
 
@@ -285,7 +307,13 @@
 .nav-logo{
   margin-bottom: 4.5px;
 }
+@media only screen and (max-width: 600px){
+	.nav-logo{
+        visibility: hidden;
+        /* background-color: red; */
+    }
 
+}
 
 
 
