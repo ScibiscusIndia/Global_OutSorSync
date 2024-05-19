@@ -1,15 +1,18 @@
 
 
 /* section 0 */
-.card-body-intro{
-    content: url("../Logo/nav_bar_logo.png");
-    width:auto;
-    height:300px;
+@media only screen and (min-width: 600px){
+    .card-body-intro{
+        content: url("../Logo/nav_bar_logo.png");
+        width: auto;
+        height:300px;
+    }
 }
+
 @media only screen and (max-width: 600px){
 	.card-body-intro{
         content: url("../Logo/nav_bar_logo.png");
-        width:280px;
+        width:90%;
         height:80px;
     }
 }
@@ -29,6 +32,22 @@
     }
 }
 
+
+
+/* section 2.5 */
+.expl_sec2_5{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.btn-custom{
+    margin: 10px 0px;
+}
+
+.new-btn-custom{
+    height: 100%;
+    width: 100%;
+}
 
 
 .sec2 .p2{
@@ -253,7 +272,6 @@
 .main_hp_90{
   background-color: #7BB4C3;
   height: 65vh;
-
 }
 .hp1{
     color: black;
@@ -265,7 +283,7 @@
 }
 @media only screen and (max-width: 600px){
 	.main_hp_90{
-        height: 75vh;
+        height: 40vh;
     }
 }
 
