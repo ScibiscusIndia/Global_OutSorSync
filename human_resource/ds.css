@@ -1,0 +1,41 @@
+.navbar-brand{
+    font-style: italic;
+    font-family: garamond;
+    font-size: 22xp;
+    color: black;
+    margin-left: 2px;
+}
+
+.hp1{
+  color: black;
+  margin: auto;
+  font-style: italic;
+  font-family: garamond;
+  font-size: 22px;
+  margin-right: 15px;
+}
+
+
+.collapse{
+  margin-right: 15rem;
+}
+
+.left-content{
+    margin-left: 15rem;
+}
+
+.nav-logo{
+  margin-bottom: 4.5px;
+}
+
+.card-container{
+  margin-bottom: 3rem;
+}
+
+.gt_8{
+  margin-top: 3rem;
+}
+
+.row{
+  margin-top: 1rem;
+}
